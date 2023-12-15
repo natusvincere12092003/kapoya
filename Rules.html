@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hangman</title>
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="style.css" />
+    <button id="back-button" onclick="goBack()">Back</button>
+    <h1> GAME RULES </h1>
+  </head>
+  
+  <body>
+  <div class="instructions">
+    <p>
+
+<br>
+Object: One player thinks of a word and
+the other tries to guess it by guessing
+letters. Each incorrect guess brings you
+closer to being "hanged." This game
+helps to sharpen children’s spelling and
+word-decoding skills.
+<br>
+<br>
+Directions: Decide who is going first. Start the game by having this person choose a word
+or phrase in their mind. (Choose a word from the book just read, and for quick reference to
+the word, use a bookmark to keep track of the page it is located on.)
+<br>
+Place one dash on the bottom of the game board for each letter of the word or words
+chosen. Leave a space between words.
+<br>
+<br>
+If the word is dog, draw three spaces, like this: __ __ __.
+Have the other player guess one letter at a time - or he or she can use a turn to guess the
+entire word or words.
+<br>
+Fill in the letter everywhere it appears on the appropriate dash (or dashes) each time the
+person guesses correctly. Circle the letter on the alphabet if is guessed correctly. Add one
+body part to the drawing each time the letter chosen is not in the word. Begin by drawing a
+head attached to the short vertical line (the "noose"). 
+<br>
+Add eyes, ears, nose, hair, body, legs,
+and arms. Put an X through the letter that was guessed and not correct. You may also wish
+to make your drawings very elaborate - one ear at a time, a neck, and a belly button - so that
+children will have a lot of guesses before losing.
+<br>
+If the drawing of the person is completed before the word or words are guessed, the
+guessing player loses. If the player figures out the word or words first, he or she wins
+</p>
+</div>
+    
+  </body>
+  <script>
+      function goBack() {
+        window.history.back();
+      }
+    </script>
+  </html>
